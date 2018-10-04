@@ -66,7 +66,7 @@ $(function() {
         $('a.menu-icon-link').trigger('click'); // to show menu
         expect($('body').hasClass('menu-hidden')).toBe(false);
         $('a.menu-icon-link').trigger('click'); // to hide menu again
-        expect($('body').hasCLass('menu-hidden')).toBe(true);
+        expect($('body').hasClass('menu-hidden')).toBe(true);
         /* TODO: Write a test that ensures the menu changes
          * visibility when the menu icon is clicked. This test
          * should have two expectations: does the menu display when
