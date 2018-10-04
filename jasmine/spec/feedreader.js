@@ -65,9 +65,9 @@ $(function() {
       });
 
       it('should toggle visibility on or off with click', function() {
-        $('a.menu-icon-link').trigger('click'); // to show menu
-        expect($('a.menu-icon-link').hasClass('menu-hidden')).toBe(false);
-        $('a.menu-icon-link').trigger('click'); // to hide menu again
+        $('a.menu-icon-link').trigger('click'); // to show menu when clicked
+        expect($('body').hasClass('menu-hidden')).toBe(false);
+        $('a.menu-icon-link').trigger('click'); // to hide menu again when clicked
         expect($('body').hasClass('menu-hidden')).toBe(true);
         /* TODO: Write a test that ensures the menu changes
          * visibility when the menu icon is clicked. This test
