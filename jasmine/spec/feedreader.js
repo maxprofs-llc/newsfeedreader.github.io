@@ -55,6 +55,14 @@ $(function() {
     describe('The menu', function() {
     /* TODO: Write a new test suite named "The menu" */
 
+      /* Used jQuery for this as it provides more concise, readable code
+       * with the option of either using the 'hasClass()' or 'is()' to
+       * to determine Boolean values of the 'menu-hidden' feature. I chose
+       * 'hasClass' because it is directly references the 'menu-hidden' class
+       * used in both the 'index.html' and 'style.css' files.
+       * src https://api.jquery.com/hasclass/
+       * src https://api.jquery.com/is/#is-selector
+       */
       it('has the menu hidden', function() {
         expect($('body').hasClass('menu-hidden')).toBe(true);
         /* TODO: Write a test that ensures the menu element is
