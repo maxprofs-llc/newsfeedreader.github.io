@@ -1,6 +1,6 @@
 # Udacity FEND Feed Reader Testing Suite Project
 
-This project tests, and demonstrates, your knowledge of writing test suites in **Jasmine**. To load webpage, download or clone repository to your desktop and open the `index.html` page in your webbrowser of choice. Scroll all the way down to the bottomo to check what specs were made and whether they passed or failed. 
+This project tests, and demonstrates, your knowledge of writing test suites in **Jasmine**. To load webpage, download or clone repository to your desktop and open the `index.html` page in your webbrowser of choice. Scroll all the way down to the bottom to check what specs were made and whether they passed or failed. 
 
 **=========================================================================**
 
